@@ -3,7 +3,7 @@ name: Velixa Capital
 type: FinancialService
 country: IN
 phone: +91-95829-14054
-email: hello@velixacapital.com
+email: info@velixacapital.in
 website: https://www.velixacapital.com
 tagline: Trust. Growth. Stability. Prosperity.
 

@@ -70,10 +70,10 @@ Open <http://localhost:3000>.
 
 | Role     | Email                          | Password       |
 | -------- | ------------------------------ | -------------- |
-| Admin    | admin@velixacapital.com        | Admin@123      |
-| Employee | employee@velixacapital.com     | Employee@123   |
-| Employee | priya@velixacapital.com        | Employee@123   |
-| Partner  | partner@velixacapital.com      | Partner@123    |
+| Admin    | admin@velixacapital.in        | Admin@123      |
+| Employee | employee@velixacapital.in     | Employee@123   |
+| Employee | priya@velixacapital.in        | Employee@123   |
+| Partner  | partner@velixacapital.in      | Partner@123    |
 
 Sign in at <http://localhost:3000/auth>.
 

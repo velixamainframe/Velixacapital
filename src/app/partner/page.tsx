@@ -195,8 +195,8 @@ export default function PartnerPage() {
             </div>
             <p className="mt-4 text-xs text-muted-foreground">
               Questions before applying? Email{" "}
-              <a href="mailto:hello@velixacapital.com" className="text-gold hover:underline">
-                hello@velixacapital.com
+              <a href="mailto:info@velixacapital.in" className="text-gold hover:underline">
+                info@velixacapital.in
               </a>{" "}
               or call +91 95829 14054.
             </p>

@@ -730,7 +730,7 @@ export const CONTACT = {
   tagline: "Trust. Growth. Stability. Prosperity.",
   phone: "+91 95829 14054",
   phoneRaw: "919582914054",
-  email: "hello@velixacapital.com",
+  email: "info@velixacapital.in",
 };
 
 export const COMPLIANCE_DISCLAIMER =
