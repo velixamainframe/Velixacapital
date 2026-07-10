@@ -1,0 +1,12 @@
+{
+  "name": "Velixa Capital",
+  "short_name": "Velixa",
+  "description": "Loans, Tax, Property & Accounting Consultants",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a2456",
+  "theme_color": "#1a2456",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,2 @@
+export const DISCORD_INVITE_URL = process.env.NEXT_PUBLIC_DISCORD_INVITE_URL || "";
+export const SHOW_DISCORD_LINK = Boolean(DISCORD_INVITE_URL);

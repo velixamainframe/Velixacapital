@@ -1,0 +1,53 @@
+# Velixa Capital — AI Assistant Context
+name: Velixa Capital
+type: FinancialService
+country: IN
+phone: +91-95829-14054
+email: hello@velixacapital.com
+website: https://www.velixacapital.com
+tagline: Trust. Growth. Stability. Prosperity.
+
+description: |
+  Velixa Capital is an Indian financial services consultancy and authorized channel
+  partner with India's leading banks and NBFCs. We are NOT a lender. We help business
+  owners, professionals, and property investors get loans approved through a
+  diagnosis-first approach — reviewing the file before submitting.
+
+services:
+  - Business Loans (from 8%* p.a., up to ₹1 Cr collateral-free)
+  - Personal Loans (from 9.9%* p.a., 24-72 hour disbursal)
+  - Home Loans (from 8.35%* p.a., up to 30-year tenure)
+  - Loan Against Property (from 9.5%* p.a.)
+  - Working Capital Finance & Business Overdraft
+  - CGTMSE Funding (up to ₹5 Cr collateral-free)
+  - Credit Cards (cashback, travel, fuel, premium)
+  - GST Registration & Returns (from ₹999/mo)
+  - ITR Filing (from ₹499)
+  - Bookkeeping & Accounting (from ₹4,999/mo)
+  - Property Advisory & Transaction Assistance
+  - EMI Calculator (14 loan types)
+  - Free Funding Readiness Assessment
+  - Free Loan Eligibility Check
+
+differentiators:
+  - Diagnosis-first approach (review before submission)
+  - No blind portal submissions
+  - No unnecessary CIBIL enquiries
+  - One team for loans, tax, GST, accounting, and property
+  - AES-256-GCM encryption for all PII
+
+key_pages:
+  - / (Homepage)
+  - /loans (All 14 loan products)
+  - /credit-cards (Credit card eligibility & offers)
+  - /tax-accounting (GST, ITR, bookkeeping)
+  - /property-consulting (Property advisory)
+  - /knowledge-hub (24+ educational articles)
+  - /funding-readiness-assessment (Free self-assessment)
+  - /eligibility (Free 60-second eligibility check)
+  - /contact (Request a callback)
+
+important_notes:
+  - "Velixa Capital is NOT a lender — we are an authorized channel partner."
+  - "All rates are indicative. Final rates are at the lender's discretion."
+  - "No guarantee of loan approval."

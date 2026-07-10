@@ -1,0 +1,75 @@
+# Velixa Capital
+
+> Authorized channel partner with India's leading banks & NBFCs. Loans, tax, accounting, and property consulting under one roof. Diagnosis-first approach — we review your file before submitting, not a lead-blast aggregator.
+
+Velixa Capital is an Indian financial services consultancy that helps business owners, professionals, and property investors get loans approved. Unlike typical aggregators that blast files to 10+ portals (causing multiple CIBIL hits and automated rejections), Velixa diagnoses eligibility first, structures the credit/banking/tax profile, then matches the file to 1-2 right-fit lenders.
+
+## Core Services
+
+- [Business Loans](/loans/business-loan): Collateral-free MSME funding up to ₹1 Cr, rates from 8%* p.a.
+- [Personal Loans](/loans/personal-loan): Unsecured funds, rates from 9.9%* p.a., disbursal in 24-72 hours
+- [Home Loans](/loans/home-loan): Rates from 8.35%* p.a., tenure up to 30 years
+- [Loan Against Property](/loans/loan-against-property): Unlock property value, rates from 9.5%* p.a.
+- [Working Capital Finance](/working-capital-finance): OD/CC limits for smooth operations
+- [CGTMSE Funding](/cgtmse-funding): Collateral-free MSME funding up to ₹5 Cr
+- [Credit Cards](/credit-cards): Cashback, travel, fuel, premium cards
+- [GST & ITR Filing](/tax-accounting): Registration, returns, bookkeeping — ITR from ₹499
+- [Property Advisory](/property-consulting): Transaction assistance, lease documentation
+
+## Free Tools
+
+- [EMI Calculator](/loans): Calculate EMI for 14 loan types with live sliders
+- [Funding Readiness Assessment](/funding-readiness-assessment): Score your business against 6 pillars
+- [Eligibility Check](/eligibility): Free, 60-second eligibility review
+- [Business Funding Scorecard](/business-funding-scorecard): See where your file stands
+
+## Knowledge Hub
+
+- [Why Loan Applications Get Rejected](/knowledge-hub/why-loan-applications-get-rejected)
+- [Low CIBIL Rejection Solutions](/knowledge-hub/low-cibil-rejection)
+- [GST Mismatch Rejection](/knowledge-hub/gst-mismatch-rejection)
+- [Banking Red Flags](/knowledge-hub/banking-red-flags)
+- [DSCR Explained](/knowledge-hub/dscr-explained)
+- [FOIR Explained](/knowledge-hub/foir-explained)
+- [GST vs ITR for Loans](/knowledge-hub/gst-vs-itr)
+- [NBFC vs Bank Business Loan](/knowledge-hub/nbfc-vs-bank)
+- [Business Loan vs LAP](/knowledge-hub/business-loan-vs-lap)
+- [Funding for Doctors](/knowledge-hub/funding-for-doctors)
+- [Funding for Manufacturers](/knowledge-hub/funding-for-manufacturers)
+- [Funding for Traders](/knowledge-hub/funding-for-traders)
+- [Funding for Restaurants](/knowledge-hub/funding-for-restaurants)
+- [Funding for E-commerce Sellers](/knowledge-hub/funding-for-e-commerce-sellers)
+
+## Comparisons
+
+- [NBFC vs Bank Business Loan](/compare/nbfc-vs-bank-business-loan)
+- [Business Loan vs LAP](/compare/business-loan-vs-lap)
+- [GST Loan vs Traditional Loan](/compare/gst-loan-vs-traditional-loan)
+- [Private vs Public Sector Bank Loans](/compare/private-vs-public-sector-bank-loans)
+
+## Government Schemes
+
+- [PMEGP](/loans/govt-schemes/pmegp): Up to ₹50L manufacturing / ₹20L service
+- [MUDRA Loan](/loans/govt-schemes/mudra-loan): Up to ₹10 lakh
+- [Stand-Up India](/loans/govt-schemes/stand-up-india): ₹10L to ₹1 Cr for SC/ST/Women
+- [PM SVANidhi](/loans/govt-schemes/pm-svanidhi): ₹10K-₹50K for street vendors
+- [CGTMSE](/loans/govt-schemes/cgtmse): Up to ₹5 Cr collateral-free for MSEs
+
+## Key Differentiators
+
+1. **Diagnosis-first**: We review your file BEFORE submitting — not after a rejection
+2. **No blind portal submissions**: We don't blast your file to 10+ lenders
+3. **No unnecessary CIBIL enquiries**: CIBIL pull only when we agree to submit to a specific lender
+4. **One accountable team**: Loans, tax, GST, accounting, property — under one roof
+5. **Strict data privacy**: All PII is AES-256-GCM encrypted before storage
+
+## Contact
+
+- Phone: +91 95829 14054
+- Email: hello@velixacapital.com
+- Website: https://www.velixacapital.com
+- Tagline: Trust. Growth. Stability. Prosperity.
+
+## Important
+
+Velixa Capital is NOT a lender. We are an authorized channel partner with RBI-registered banks and NBFCs. Loan approvals, interest rates, credit limits, and service outcomes are subject to the policies of the respective institutions. All rates are indicative — final rates are at the lender's discretion.
