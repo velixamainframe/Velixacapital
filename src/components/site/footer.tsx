@@ -15,7 +15,7 @@ export function Footer() {
       <div className="container-edge grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-6">
         <div className="lg:col-span-2">
           <div className="flex items-center gap-3">
-            <img src="/favicon.svg" alt="Velixa Capital" width={64} height={64} className="h-16 w-16 object-contain" />
+            <img src="/favicon.jpg" alt="Velixa Capital" width={64} height={64} className="h-16 w-16 object-contain" />
             <p className="font-display text-2xl font-bold">Velixa Capital</p>
           </div>
           <p className="mt-3 text-sm text-primary-foreground/70">{CONTACT.tagline}</p>

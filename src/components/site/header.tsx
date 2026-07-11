@@ -118,7 +118,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="container-edge flex h-16 items-center justify-between gap-2 sm:gap-4">
         <Link href="/" className="flex shrink-0 items-center gap-2" aria-label="Velixa Capital">
-          <img src="/favicon.svg" alt="Velixa Capital" width={40} height={40} className="h-9 w-9 shrink-0 object-contain sm:h-10 sm:w-10" />
+          <img src="/favicon.jpg" alt="Velixa Capital" width={40} height={40} className="h-9 w-9 shrink-0 object-contain sm:h-10 sm:w-10" />
           <span className="font-display text-sm sm:text-base lg:text-lg font-bold tracking-tight text-foreground whitespace-nowrap">Velixa Capital</span>
         </Link>
 
