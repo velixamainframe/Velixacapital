@@ -316,16 +316,20 @@ export async function findUserByEmail(email: string) {
 }
 
 export async function createUser(input: {
-  email: string; passwordHash?: string; displayName?: string; role?: Role;
+  email: string; passwordHash?: string; displayName?: string; role?: Role; id?: string;
 }) {
-  return db.user.create({
-    data: {
-      email: input.email.toLowerCase(),
-      passwordHash: input.passwordHash ?? null,
-      displayName: input.displayName ?? null,
-      role: input.role ?? "user",
-    },
-  });
+  const data: Record<string, unknown> = {
+    email: input.email.toLowerCase(),
+    passwordHash: input.passwordHash ?? null,
+    displayName: input.displayName ?? null,
+    role: input.role ?? "user",
+  };
+
+  if (input.id) {
+    data.id = input.id;
+  }
+
+  return db.user.create({ data });
 }
 
 export async function setUserRole(userId: string, role: Role) {
