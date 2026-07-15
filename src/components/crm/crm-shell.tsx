@@ -87,9 +87,6 @@ export function CrmShell({ children, active }: CrmShellProps) {
             Please sign in with an employee account.
           </p>
           <div className="mt-6 flex flex-col gap-2">
-            <Button asChild>
-              <Link href="/auth">Go to sign-in</Link>
-            </Button>
             <Button variant="outline" onClick={() => signOut()}>
               Sign out
             </Button>

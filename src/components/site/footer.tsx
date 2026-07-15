@@ -73,7 +73,7 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             <li><Link href="/privacy" className="text-primary-foreground/80 hover:text-gold">Privacy Policy</Link></li>
             <li><Link href="/it-act-declaration" className="text-primary-foreground/80 hover:text-gold">IT Act Declaration</Link></li>
-            <li><Link href="/privacy" className="text-primary-foreground/80 hover:text-gold">Terms of Service</Link></li>
+            <li><Link href="/disclosures" className="text-primary-foreground/80 hover:text-gold">Terms of Service</Link></li>
             <li><Link href="/privacy" className="text-primary-foreground/80 hover:text-gold">Refund Policy</Link></li>
             <li><Link href="/contact" className="text-primary-foreground/80 hover:text-gold">Grievance Redressal</Link></li>
           </ul>
