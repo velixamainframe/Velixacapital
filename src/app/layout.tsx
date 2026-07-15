@@ -18,25 +18,27 @@ const inter = Inter({
   display: "swap",
 });
 
+const siteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Velixa Capital — Loans, Tax, Property & Accounting Consultants",
+    default: "Velixa Capital — Loans, Tax, Property & Accounting Consultants in India",
     template: "%s",
   },
   description:
-    "Authorized channel partner with top banks & NBFCs. Best rates on 13+ loan types, GST/ITR filing, accounting and property consulting under one roof.",
+    "Velixa Capital helps Indian businesses with business loans, loan against property, GST/ITR filing, accounting, and property advisory through a diagnosis-first approach.",
   keywords: [
     "business loan", "loan against property", "personal loan", "MSME loan consultant",
     "CGTMSE funding", "GST registration", "ITR filing", "loan rejection help",
-    "credit improvement", "working capital finance", "Velixa Capital",
+    "credit improvement", "working capital finance", "Velixa Capital", "finance consultant India",
   ],
   authors: [{ name: "Velixa Capital" }],
   creator: "Velixa Capital",
   publisher: "Velixa Capital",
   applicationName: "Velixa Capital",
   category: "Finance",
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", languages: { "en-IN": SITE_URL } },
   robots: {
     index: true,
     follow: true,
@@ -58,21 +60,24 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: SITE_URL,
     siteName: "Velixa Capital",
-    title: "Velixa Capital — Loans, Tax, Property & Accounting Consultants",
+    title: "Velixa Capital — Loans, Tax, Property & Accounting Consultants in India",
     description:
-      "Authorized channel partner with top banks & NBFCs. Best rates on 13+ loan types, GST/ITR filing, accounting and property consulting under one roof.",
+      "Velixa Capital helps Indian businesses with business loans, loan against property, GST/ITR filing, accounting, and property advisory through a diagnosis-first approach.",
     images: [{ url: "/og-image.svg", width: 1200, height: 630, alt: "Velixa Capital" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Velixa Capital — Loans, Tax, Property & Accounting Consultants",
+    title: "Velixa Capital — Loans, Tax, Property & Accounting Consultants in India",
     description:
-      "Authorized channel partner with top banks & NBFCs. Best rates on 13+ loan types, GST/ITR filing, accounting and property consulting under one roof.",
+      "Velixa Capital helps Indian businesses with business loans, loan against property, GST/ITR filing, accounting, and property advisory through a diagnosis-first approach.",
     images: ["/og-image.svg"],
   },
-  verification: { google: "google-site-verification-token" },
+  verification: siteVerification ? { google: siteVerification } : undefined,
   other: {
     "format-detection": "telephone=yes",
+    "geo.region": "IN",
+    "geo.placename": "India",
+    "geo.position": "20.5937;78.9629",
   },
 };
 
@@ -94,6 +99,7 @@ const orgJsonLd = {
   url: SITE_URL, areaServed: "IN",
   telephone: `+91-${CONTACT.phoneRaw}`, email: CONTACT.email, priceRange: "₹₹",
   knowsAbout: ["Business Loans", "Personal Loans", "Home Loans", "Loan Against Property", "Working Capital Finance", "Business Overdraft", "CGTMSE Funding", "GST Registration & Returns", "ITR Filing", "Bookkeeping & Accounting", "Credit Improvement", "Credit Cards", "Property Advisory", "CIBIL Score", "DSCR", "FOIR", "MSME Loans", "MUDRA Loans"],
+  sameAs: ["https://www.facebook.com/people/Velixa-Capital/61590876623305/", "https://www.instagram.com/velixa_capital", "https://linkedin.com/company/velixcapital"],
   hasOfferCatalog: { "@type": "OfferCatalog", name: "Financial Services", itemListElement: [
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Business Loans", description: "Collateral-free MSME funding up to ₹1 Cr, rates from 8%* p.a." } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Personal Loans", description: "Unsecured funds, rates from 9.9%* p.a., disbursal in 24-72 hours" } },

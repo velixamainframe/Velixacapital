@@ -31,4 +31,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: /sitemap.xml
+Sitemap: https://velixacapital.in/sitemap.xml
