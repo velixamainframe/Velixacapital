@@ -10,6 +10,7 @@ import {
 } from "@/lib/site-data";
 import { listCreditCards } from "@/lib/data";
 import { CheckCircle2, ExternalLink, CreditCard, ArrowRight } from "lucide-react";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 // Credit card data comes from the database — render at runtime, not build time.
 export const dynamic = "force-dynamic";
@@ -175,11 +176,78 @@ export default async function CreditCardsPage() {
             {cards.length === 0 ? (
               <EmptyState />
             ) : (
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {cards.map((c) => (
-                  <CardTile key={c.id} c={c} />
-                ))}
-              </div>
+              <>
+                <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
+                  <div className="overflow-x-auto">
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Bank</TableHead>
+                          <TableHead>Card</TableHead>
+                          <TableHead>Category</TableHead>
+                          <TableHead>Fees</TableHead>
+                          <TableHead>Highlights</TableHead>
+                          <TableHead className="text-right">Actions</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {cards.map((c) => (
+                          <TableRow key={c.id}>
+                            <TableCell className="font-semibold">{c.bank}</TableCell>
+                            <TableCell>
+                              <div>
+                                <div className="font-semibold">{c.name}</div>
+                                <div className="text-xs text-muted-foreground">{c.benefits}</div>
+                              </div>
+                            </TableCell>
+                            <TableCell>{c.category}</TableCell>
+                            <TableCell>
+                              <div className="text-sm">Joining ₹{(c.joiningFee ?? 0).toLocaleString("en-IN")}</div>
+                              <div className="text-sm">Annual ₹{(c.annualFee ?? 0).toLocaleString("en-IN")}</div>
+                            </TableCell>
+                            <TableCell>
+                              <div className="max-w-xs space-y-1">
+                                {Array.isArray(c.features) && c.features.length > 0 ? (
+                                  c.features.slice(0, 3).map((feature, index) => (
+                                    <div key={`${feature}-${index}`} className="text-sm text-muted-foreground">
+                                      • {feature}
+                                    </div>
+                                  ))
+                                ) : (
+                                  <span className="text-sm text-muted-foreground">No highlights listed yet</span>
+                                )}
+                              </div>
+                            </TableCell>
+                            <TableCell className="text-right">
+                              <div className="flex justify-end gap-2">
+                                <Link
+                                  href={`/credit-card-eligibility?card=${encodeURIComponent(`${c.bank} ${c.name}`)}`}
+                                  className="rounded-md border border-border bg-background px-3 py-2 text-xs font-semibold transition-colors hover:border-primary/40 hover:bg-muted"
+                                >
+                                  Check Eligibility
+                                </Link>
+                                <a
+                                  href={c.affiliateUrl || "#"}
+                                  target="_blank"
+                                  rel="noopener nofollow sponsored"
+                                  className="rounded-md bg-gold px-3 py-2 text-xs font-bold text-gold-foreground shadow-sm transition-opacity hover:opacity-90"
+                                >
+                                  Apply
+                                </a>
+                              </div>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </div>
+                </div>
+                <div className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                  {cards.map((c) => (
+                    <CardTile key={c.id} c={c} />
+                  ))}
+                </div>
+              </>
             )}
           </div>
         </div>
